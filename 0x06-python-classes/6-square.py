@@ -26,7 +26,8 @@ class Square:
         Raises:
             TypeError: If the provided size is not an integer.
             ValueError: If the provided size is less than 0.
-            TypeError: If the provided position is not a tuple of 2 positive integers.
+            TypeError: If the provided position is not a tuple of
+            2 positive integers.
         """
         self.size = size
         self.position = position
