@@ -1,5 +1,0 @@
-#!/usr/bin/python3
-
-object_type = type(object)
-print(object_type)
-
