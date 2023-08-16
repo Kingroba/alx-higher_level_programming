@@ -1,2 +1,2 @@
--- Prints the full description of the table first_table.
+-- This SQL command is used to Prints the full description of the table first_table.
 SHOW CREATE TABLE `first_table`;

@@ -1,5 +1,5 @@
--- Displays the average temperature (in Fahrenheit)
--- by city ordered by descending temperature.
+-- This SQL command is used to create Displays the average temperature (in Fahrenheit)
+-- and orderd by city in descending temperature.
 SELECT `city`, AVG(`value`) AS `avg_temp`
 FROM `temperatures`
 GROUP BY `city`
